@@ -1,0 +1,62 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #c4eaef;
+}
+
+.bodyMain {
+  width: 800px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+}
+
+.inputMain {
+  width: 800px;
+  margin: 10px auto;
+  background-color: whitesmoke;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid black;
+}
+
+.form-group {
+  margin: 5px 5px 5px 5px;
+}
+
+.graph {
+  width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+}
+
+p, li {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.title {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+  color: #5190cc;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+button {
+  margin: 5px auto;
+  padding: 10px 10px 10px 10px;
+}

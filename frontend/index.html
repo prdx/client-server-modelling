@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Data Visualization DS5500</title>
+  </head>
+  <body>
+    <div class="bodyMain">
+      <h1 class="title">Client Server Modelling</h1> <h2 class="title">DS5500 - Anak Agung Ngurah Bagus Trihatmaja</h2>
+    </div>
+    <div class="inputMain">
+        <div>
+            <div class="form-inline">
+                <div class="form-group">
+                    <label class="radio-inline"><input type="radio" name="optradio" checked>Standard Scaler</label>
+                    <label class="radio-inline"><input type="radio" name="optradio">Min-Max</label>
+                </div>
+                <div class="form-group">
+                    <label for="c">C</label>
+                    <input class="form-control" id="c" placeholder="1.0" value="1.0">
+                </div>
+                <span />
+                <input type="button" class="btn btn-primary graphDisplayer" onclick="showGraph();" value="Plot"></input>
+            </div>
+        </div>
+    </div>
+    <div class="graph" />
+    <script src="scripts/main.js"></script>
+
+  </body>
+</html>
