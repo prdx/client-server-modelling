@@ -54,4 +54,4 @@ if __name__ == '__main__':
     y_train = y[r < 0.8]
     y_test = y[r >= 0.8]
 
-    app.run(debug=True, use_reloader=False)
+    app.run(debug=True)
